@@ -5,7 +5,7 @@
  CNNs are a class of deep learning models typically used for image classification, object detection, 
  and other tasks involving visual data.
 
-# ## What is a CNN?
+# What is a CNN?
  A Convolutional Neural Network (CNN) is a type of artificial neural network designed to process 
  and recognize patterns in visual data. It is widely used in computer vision tasks such as:
 
@@ -20,7 +20,7 @@
  - Fully Connected Layers: Perform the final classification based on the extracted features.
  - Activation Functions: Non-linear functions (like ReLU) applied to the outputs of layers.
 
-# ## Dataset
+# Dataset
 
  The dataset used in this project is:
  - **MNIST**: A dataset of handwritten digits with 60,000 training examples and 10,000 test examples, 
