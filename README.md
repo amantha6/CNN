@@ -30,3 +30,14 @@
  The dataset is downloaded using PyTorch's `torchvision.datasets` module.
  Data is preprocessed using transformations such as normalization and conversion to tensor format.
 
+# GPU for PyTorch Notebook
+## Overview
+This Jupyter Notebook is designed to demonstrate the utilization of GPU with PyTorch for enhanced computational efficiency. It includes basic checks to verify GPU availability and operations to manipulate tensors on GPU.
+
+## Features
+### GPU Availability Check: Verifies if CUDA is available on the device and identifies the GPU device name.
+### Memory Management: Includes examples of how to check and manage GPU memory allocation.
+### Tensor Operations: Demonstrates how to create and operate on tensors directly on the GPU.
+### Model Training: Includes a simple neural network model setup for the Iris dataset using PyTorch’s neural network modules.
+### Data Handling: Illustrates how to load, split, and preprocess data using Pandas and Scikit-learn.
+### Training Loop: Executes a training loop, displaying the optimization of loss over epochs, and measures the training time.
